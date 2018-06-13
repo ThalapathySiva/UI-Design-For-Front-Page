@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+    <item
+        android:id="@+id/who"
+        android:icon="@drawable/ic_accessibility_black_24dp"
+        android:title="Who We Are" />
+    <item
+        android:id="@+id/pro"
+        android:icon="@drawable/ic_slideshow_black_24dp"
+        android:title="Projects" />
+    <item
+        android:id="@+id/eve"
+        android:icon="@drawable/ic_event_black_24dp"
+        android:title="Events" />
+    <item
+        android:id="@+id/gallery"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="Gallery" />
+    <item
+        android:id="@+id/con"
+        android:icon="@drawable/ic_contact_mail_black_24dp"
+        android:title="Contact Us" />
+    <item
+        android:id="@+id/join"
+        android:icon="@drawable/ic_group_black_24dp"
+        android:title="Join Us" />
+    <item
+        android:id="@+id/donate"
+        android:icon="@drawable/ic_card_giftcard_black_24dp"
+        android:title="Donate" />
+
+
+    </group>
+
+
+
+
+</menu>
